@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4CF8CDC1778132F005D1536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CF8CDB1778132F005D1536 /* UIKit.framework */; };
+		F4CF8CDE1778132F005D1536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CF8CDD1778132F005D1536 /* Foundation.framework */; };
+		F4CF8CE01778132F005D1536 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CF8CDF1778132F005D1536 /* CoreGraphics.framework */; };
+		F4CF8CE61778132F005D1536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4CF8CE41778132F005D1536 /* InfoPlist.strings */; };
+		F4CF8CE81778132F005D1536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF8CE71778132F005D1536 /* main.m */; };
+		F4CF8CEC1778132F005D1536 /* SQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF8CEB1778132F005D1536 /* SQAppDelegate.m */; };
+		F4CF8CEE1778132F005D1536 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CF8CED1778132F005D1536 /* Default.png */; };
+		F4CF8CF01778132F005D1536 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CF8CEF1778132F005D1536 /* Default@2x.png */; };
+		F4CF8CF21778132F005D1536 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CF8CF11778132F005D1536 /* Default-568h@2x.png */; };
+		F4CF8CFA17781392005D1536 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF8CF917781392005D1536 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4CF8CD71778132F005D1536 /* NSTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF8CDB1778132F005D1536 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4CF8CDD1778132F005D1536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4CF8CDF1778132F005D1536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4CF8CE31778132F005D1536 /* NSTimerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTimerDemo-Info.plist"; sourceTree = "<group>"; };
+		F4CF8CE51778132F005D1536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4CF8CE71778132F005D1536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4CF8CE91778132F005D1536 /* NSTimerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F4CF8CEA1778132F005D1536 /* SQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQAppDelegate.h; sourceTree = "<group>"; };
+		F4CF8CEB1778132F005D1536 /* SQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQAppDelegate.m; sourceTree = "<group>"; };
+		F4CF8CED1778132F005D1536 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F4CF8CEF1778132F005D1536 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F4CF8CF11778132F005D1536 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F4CF8CF817781392005D1536 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F4CF8CF917781392005D1536 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CF8CD41778132F005D1536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF8CDC1778132F005D1536 /* UIKit.framework in Frameworks */,
+				F4CF8CDE1778132F005D1536 /* Foundation.framework in Frameworks */,
+				F4CF8CE01778132F005D1536 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CF8CCC1778132F005D1536 = {
+			isa = PBXGroup;
+			children = (
+				F4CF8CE11778132F005D1536 /* NSTimerDemo */,
+				F4CF8CDA1778132F005D1536 /* Frameworks */,
+				F4CF8CD81778132F005D1536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CF8CD81778132F005D1536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF8CD71778132F005D1536 /* NSTimerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CF8CDA1778132F005D1536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF8CDB1778132F005D1536 /* UIKit.framework */,
+				F4CF8CDD1778132F005D1536 /* Foundation.framework */,
+				F4CF8CDF1778132F005D1536 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4CF8CE11778132F005D1536 /* NSTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF8CEA1778132F005D1536 /* SQAppDelegate.h */,
+				F4CF8CEB1778132F005D1536 /* SQAppDelegate.m */,
+				F4CF8CE21778132F005D1536 /* Supporting Files */,
+				F4CF8CF817781392005D1536 /* RootViewController.h */,
+				F4CF8CF917781392005D1536 /* RootViewController.m */,
+			);
+			path = NSTimerDemo;
+			sourceTree = "<group>";
+		};
+		F4CF8CE21778132F005D1536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF8CE31778132F005D1536 /* NSTimerDemo-Info.plist */,
+				F4CF8CE41778132F005D1536 /* InfoPlist.strings */,
+				F4CF8CE71778132F005D1536 /* main.m */,
+				F4CF8CE91778132F005D1536 /* NSTimerDemo-Prefix.pch */,
+				F4CF8CED1778132F005D1536 /* Default.png */,
+				F4CF8CEF1778132F005D1536 /* Default@2x.png */,
+				F4CF8CF11778132F005D1536 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CF8CD61778132F005D1536 /* NSTimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF8CF51778132F005D1536 /* Build configuration list for PBXNativeTarget "NSTimerDemo" */;
+			buildPhases = (
+				F4CF8CD31778132F005D1536 /* Sources */,
+				F4CF8CD41778132F005D1536 /* Frameworks */,
+				F4CF8CD51778132F005D1536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTimerDemo;
+			productName = NSTimerDemo;
+			productReference = F4CF8CD71778132F005D1536 /* NSTimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CF8CCE1778132F005D1536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SQ;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = wsh;
+			};
+			buildConfigurationList = F4CF8CD11778132F005D1536 /* Build configuration list for PBXProject "NSTimerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4CF8CCC1778132F005D1536;
+			productRefGroup = F4CF8CD81778132F005D1536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CF8CD61778132F005D1536 /* NSTimerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CF8CD51778132F005D1536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF8CE61778132F005D1536 /* InfoPlist.strings in Resources */,
+				F4CF8CEE1778132F005D1536 /* Default.png in Resources */,
+				F4CF8CF01778132F005D1536 /* Default@2x.png in Resources */,
+				F4CF8CF21778132F005D1536 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CF8CD31778132F005D1536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF8CE81778132F005D1536 /* main.m in Sources */,
+				F4CF8CEC1778132F005D1536 /* SQAppDelegate.m in Sources */,
+				F4CF8CFA17781392005D1536 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4CF8CE41778132F005D1536 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CF8CE51778132F005D1536 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4CF8CF31778132F005D1536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4CF8CF41778132F005D1536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4CF8CF61778132F005D1536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTimerDemo/NSTimerDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSTimerDemo/NSTimerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4CF8CF71778132F005D1536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTimerDemo/NSTimerDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSTimerDemo/NSTimerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CF8CD11778132F005D1536 /* Build configuration list for PBXProject "NSTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF8CF31778132F005D1536 /* Debug */,
+				F4CF8CF41778132F005D1536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF8CF51778132F005D1536 /* Build configuration list for PBXNativeTarget "NSTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF8CF61778132F005D1536 /* Debug */,
+				F4CF8CF71778132F005D1536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CF8CCE1778132F005D1536 /* Project object */;
+}
